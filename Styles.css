@@ -1,6 +1,7 @@
 * {
     padding: 10px;
     margin: 10px;
+    background-color: black;
 }
 
 #game {
@@ -12,14 +13,14 @@
 #character {
     height: 50px;
     width: 20px;
-    background-color: red;
+    background-color: yellow;
     position: relative;
     top: 480px;
     left: -20px;
 }
 
 .animate {
-    animation: jump 300ms;
+    animation: jump 400ms;
 }
 
 @keyframes jump {
@@ -40,7 +41,7 @@
 #block {
     height: 20px;
     width: 20px;
-    background-color: black;
+    background-color: rgb(241, 0, 0);
     position: relative;
     top: 430px;
     left: 1160px;
